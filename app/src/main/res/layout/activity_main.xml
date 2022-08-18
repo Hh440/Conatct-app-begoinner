@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3FD0E3"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/txtcontact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center_horizontal"
+        android:text="@string/contact_app"
+        android:textColor="#090808"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/ivmood"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="180dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/ic_baseline_sentiment_satisfied_alt_24"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/ivphone"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="180dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/ic_baseline_call_24"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/ivwebsite"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="180dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/ic_baseline_search_24"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/ivloc"
+        android:layout_width="53dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="180dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/ic_baseline_location_on_24"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/btncreate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/Blue"
+        android:text="Create new contact"
+        tools:ignore="TextContrastCheck" />
+</LinearLayout>
